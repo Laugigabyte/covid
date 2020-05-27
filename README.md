@@ -9,7 +9,7 @@ Training Epoch |Test Epoch |Learning Rate |Batch size
 ------|-----|--------------|----------
 200|10|0.0001|10
 
-Firstly, we chose pretrained Dense169 as our backbone and changed optimizer.
+Firstly, we chose pretrained __Dense169__ as our backbone and changed optimizer.
 
 |Optimizer |Average Precision |Average Recall |Average F1 |Average Accuracy | Average AUC
 -----|--------------|---------------|----------|-----------------|----------------
@@ -38,15 +38,15 @@ After that, we tried to changed the backbone from the pytorch and medical neural
 -----|--------------|---------------|----------|-----------------|----------------
 |Dense161|0.8409|0.7048|0.7668|0.7783|0.8775
 |Dense169|0.8396|0.8476|0.8436|0.8374|0.8999
- |Dense201|0.8182|0.7714|0.7941|0.7931|0.8936
- |ResNet101|0.8471|0.6857|0.7579|0.7734|0.8364
- |ResNet152|0.8411|0.8571|0.8491|0.8424|0.9078
- |Wide ResNet50|0.8090|0.6857|0.7423|0.7537|0.8257
- |Wide ResNet101|0.7597|0.9333|0.8376|0.8128|0.8985
- |ResNeXt50|0.7547|0.7619|0.7583|0.7488|0.8244
- |ResNeXt101|0.7941|0.7714|0.7826|0.7783|0.8709
- |MNASNet|0.8281|0.5048|0.6272|0.6897|0.8386
- |MNASNet05|0.8594|0.5238|0.6509|0.7094|0.8261
- |CheXNet|0.7890|0.8190|0.8037|0.7931|0.8866
+|Dense201|0.8182|0.7714|0.7941|0.7931|0.8936
+|ResNet101|0.8471|0.6857|0.7579|0.7734|0.8364
+|ResNet152|0.8411|0.8571|0.8491|0.8424|0.9078
+|Wide ResNet50|0.8090|0.6857|0.7423|0.7537|0.8257
+|Wide ResNet101|0.7597|0.9333|0.8376|0.8128|0.8985
+|ResNeXt50|0.7547|0.7619|0.7583|0.7488|0.8244
+|ResNeXt101|0.7941|0.7714|0.7826|0.7783|0.8709
+|MNASNet|0.8281|0.5048|0.6272|0.6897|0.8386
+|MNASNet05|0.8594|0.5238|0.6509|0.7094|0.8261
+|CheXNet|0.7890|0.8190|0.8037|0.7931|0.8866
 
 Aiming at improving the recall of the model and preventing the loss of the precision, we'd better choose DenseNet169 or ResNet152 to replace the original backbone.
