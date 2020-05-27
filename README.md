@@ -5,9 +5,9 @@ Considering the low recall of the original model in the original paper, we're lo
 Hyperparameters are as follows:
 
 
-Training Epoch |Test Epoch |Learning Rate |Batch size 
-------|-----|--------------|----------
-200|10|0.0001|10
+Training Epoch |Learning Rate |Batch size 
+------|--------------|----------
+200|0.0001|10
 
 Firstly, we chose pretrained __Dense169__ as our backbone and changed optimizer.
 
