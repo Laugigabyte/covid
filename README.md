@@ -2,14 +2,14 @@
 
 Considering the low recall of the original model in the original paper, we're looking forward to improving the model via changing the backbone or the optimizer.
 
-Hyperparameters are as follow:
+Hyperparameters are as follows:
 
 
-Training Epoch |Test Epoch |Learning Rate |Learning Rate Decay |Batch size 
-------|-----|--------------|---------------|----------
-200|10|0.0001| |10
+Training Epoch |Test Epoch |Learning Rate |Batch size 
+------|-----|--------------|----------
+200|10|0.0001|10
 
-Firstly, we chose Dense169 as our backbone and changed optimizer.
+Firstly, we chose pretrained Dense169 as our backbone and changed optimizer.
 
 |Optimizer |Average Precision |Average Recall |Average F1 |Average Accuracy | Average AUC
 -----|--------------|---------------|----------|-----------------|----------------
@@ -29,3 +29,22 @@ Firstly, we chose Dense169 as our backbone and changed optimizer.
  |DiffGrad|0.8056|0.8286|0.8169|0.8079|0.8951
  |NovoGrad|0.8043|0.7048|0.7513|0.7586|0.8740
  |Lamb|0.8571|0.7429|0.7959|0.8030|0.8779
+
+From the results above, we could easily figure out that different optimizers might have same, or even worse effect on the performance of the model.Then,Adam might be our first choice due to its stability.
+
+After that, we tried to changed the backbone of our model:
+
+|Model |Average Precision |Average Recall |Average F1 |Average Accuracy | Average AUC
+-----|--------------|---------------|----------|-----------------|----------------
+|Dense161|0.8409|0.7048|0.7668|0.7783|0.8775
+|Dense169|0.8396|0.8476|0.8436|0.8374|0.8999
+ |Dense201|0.8182|0.7714|0.7941|0.7931|0.8936
+ |ResNet101|0.8471|0.6857|0.7579|0.7734|0.8364
+ |ResNet152|0.8411|0.8571|0.8491|0.8424|0.9078
+ |Wide Resnet50|0.8090|0.6857|0.7423|0.7537|0.8257
+ |Wide Resnet101|0.7597|0.9333|0.8376|0.8128|0.8985
+ |ResNeXt50|0.7547|0.7619|0.7583|0.7488|0.8244
+ |ResNeXt101|0.7941|0.7714|0.7826|0.7783|0.8709
+ |MNASNet|0.8281|0.5048|0.6272|0.6897|0.8386
+ |MNASNet05|0.8594|0.5238|0.6509|0.7094|0.8261
+
