@@ -1,0 +1,3 @@
+model: ResNet152 total epochs: 1000  average recall: 0.7810, average precision: 0.8039,average F1: 0.7923, average accuracy: 0.7882, average AUC: 0.8563
+model: Dense169 total epochs: 1000 average recall: 0.7810, average precision: 0.7664,average F1: 0.7736, average accuracy: 0.7635, average AUC: 0.8343
+model: chexnet total epochs: 100  average recall: 0.6667, average precision: 0.8235,average F1: 0.7368, average accuracy: 0.7537, average AUC: 0.8421

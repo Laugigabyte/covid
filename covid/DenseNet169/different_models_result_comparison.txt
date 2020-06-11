@@ -1,0 +1,44 @@
+bs = 4
+model: Origin of paper, average recall: 0.762, average precision: 0.970,average F1: 0.853, average accuracy: 0.847, average AUC: 0.824
+
+model: ResNet101  average recall: 0.9143, average precision: 0.7619,average F1: 0.8312, average accuracy: 0.8079, average AUC: 0.8782
+
+model: ResNet152  average recall: 0.8000, average precision: 0.7568,average F1: 0.7778, average accuracy: 0.7635, average AUC: 0.8485
+
+model: Dense121  average recall: 0.8571, average precision: 0.7965,average F1: 0.8257, average accuracy: 0.8128, average AUC: 0.8531
+
+model: Dense201  average recall: 0.6857, average precision: 0.8182,average F1: 0.7461, average accuracy: 0.7586, average AUC: 0.8330
+
+model: MNASNet05  average recall: 0.5905, average precision: 0.8267,average F1: 0.6889, average accuracy: 0.7241, average AUC: 0.8230
+
+bs = 10
+model: Dense161  average recall: 0.7048, average precision: 0.8409,average F1: 0.7668, average accuracy: 0.7783, average AUC: 0.8775
+
+model: Dense169, average recall: 0.8476, average precision: 0.8396,average F1: 0.8436, average accuracy: 0.8374, average AUC: 0.8999
+
+model: Dense201  average recall: 0.7714, average precision: 0.8182,average F1: 0.7941, average accuracy: 0.7931, average AUC: 0.8936
+
+model: ResNet101  average recall: 0.6857, average precision: 0.8471,average F1: 0.7579, average accuracy: 0.7734, average AUC: 0.8364
+
+model: ResNet152, average recall: 0.8571, average precision: 0.8411,average F1: 0.8491, average accuracy: 0.8424, average AUC: 0.9078 (best performance)
+
+model: Wide Resnet50  average recall: 0.6857, average precision: 0.8090,average F1: 0.7423, average accuracy: 0.7537, average AUC: 0.8257
+
+model: Wide Resnet101 average recall: 0.9333, average precision: 0.7597,average F1: 0.8376, average accuracy: 0.8128, average AUC: 0.8985
+
+model: ResNeXt50  average recall: 0.7619, average precision: 0.7547,average F1: 0.7583, average accuracy: 0.7488, average AUC: 0.8244
+
+model: ResNeXt101  average recall: 0.7714, average precision: 0.7941,average F1: 0.7826, average accuracy: 0.7783, average AUC: 0.8709
+
+model: MNASNet, average recall: 0.5048, average precision: 0.8281,average F1: 0.6272, average accuracy: 0.6897, average AUC: 0.8386
+
+model: MNASNet05  average recall: 0.5238, average precision: 0.8594,average F1: 0.6509, average accuracy: 0.7094, average AUC: 0.8261
+
+model: shufflenet  average recall: 0.7429, average precision: 0.7800,average F1: 0.7610, average accuracy: 0.7586, average AUC: 0.8150
+
+model: mobilenet  average recall: 0.6952, average precision: 0.8295,average F1: 0.7565, average accuracy: 0.7685, average AUC: 0.8609
+
+model: Dense121  average recall: 0.8762, average precision: 0.7419,average F1: 0.8035, average accuracy: 0.7783, average AUC: 0.8667
+
+model: chexnet average recall: 0.8762, average precision: 0.7077,average F1: 0.7830, average accuracy: 0.7488, average AUC: 0.8487
+

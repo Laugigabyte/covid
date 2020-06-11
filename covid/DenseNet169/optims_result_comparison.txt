@@ -1,0 +1,19 @@
+model: Dense169, average recall: 0.8476, average precision: 0.8396,average F1: 0.8436, average accuracy: 0.8374, average AUC: 0.8999
+model: Dense169(with AdaBound), average recall: 0.4952, average precision: 0.8525,average F1: 0.6265, average accuracy: 0.6946, average AUC: 0.7741
+model: Dense169(with Yogi), average recall: 0.7905, average precision: 0.8300,average F1: 0.8098, average accuracy: 0.8079, average AUC: 0.8838
+model: Dense169(with AdaMod), average recall: 0.8095, average precision: 0.8173,average F1: 0.8134, average accuracy: 0.8079, average AUC: 0.8858
+model: Dense169 (with PID) average recall: 0.8286, average precision: 0.7632,average F1: 0.7945, average accuracy: 0.7783, average AUC: 0.8737
+model: Dense169 (QHAdam) average recall: 0.7714, average precision: 0.8710,average F1: 0.8182, average accuracy: 0.8227, average AUC: 0.8906
+model: Dense169 (QHM) average recall: 0.7714, average precision: 0.7642,average F1: 0.7678, average accuracy: 0.7586, average AUC: 0.8520
+model: Dense169 (with RAdam) average recall: 0.7238, average precision: 0.8000,average F1: 0.7600, average accuracy: 0.7635, average AUC: 0.8630
+model: Dense169 (with Ranger) average recall: 0.8476, average precision: 0.8165,average F1: 0.8318, average accuracy: 0.8227, average AUC: 0.8884
+model: Dense169 (with RangerQH) average recall: 0.8381, average precision: 0.8462,average F1: 0.8421, average accuracy: 0.8374, average AUC: 0.8986
+model: Dense169 with (SGDW) average recall: 0.7048, average precision: 0.7475,average F1: 0.7255, average accuracy: 0.7241, average AUC: 0.8362
+model: Dense169 with (AccSGD) average recall: 0.7714, average precision: 0.7788,average F1: 0.7751, average accuracy: 0.7685, average AUC: 0.8536
+model: Dense169 with (RangerVA) average recall: 0.8952, average precision: 0.7769,average F1: 0.8319, average accuracy: 0.8128, average AUC: 0.8845
+model: Dense169 with (DiffGrad) average recall: 0.8286, average precision: 0.8056,average F1: 0.8169, average accuracy: 0.8079, average AUC: 0.8951
+model: Dense169 with (NovoGrad) average recall: 0.7048, average precision: 0.8043,average F1: 0.7513, average accuracy: 0.7586, average AUC: 0.8740
+model: Dense169 with (Lamb) average recall: 0.7429, average precision: 0.8571,average F1: 0.7959, average accuracy: 0.8030, average AUC: 0.8779
+model: Dense169 with (Adam) average recall: 0.8286, average precision: 0.7565,average F1: 0.7909, average accuracy: 0.7734, average AUC: 0.8639
+model: Dense169 with (Adam) average recall: 0.8571, average precision: 0.7826,average F1: 0.8182, average accuracy: 0.8030, average AUC: 0.8771
+model: Dense169 with (Adam) average recall: 0.6857, average precision: 0.8090,average F1: 0.7423, average accuracy: 0.7537, average AUC: 0.8091
